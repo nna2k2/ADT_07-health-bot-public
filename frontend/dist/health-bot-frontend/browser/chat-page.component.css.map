@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/chat/chat-page.component.scss"],
+  "sourcesContent": [".chat {\r\n  position: relative;\r\n  background: var(--bg);\r\n  padding-bottom: 54px; // composer height\r\n}\r\n\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,YAAA;AACA,cAAA,IAAA;AACA,kBAAA;;",
+  "names": []
+}

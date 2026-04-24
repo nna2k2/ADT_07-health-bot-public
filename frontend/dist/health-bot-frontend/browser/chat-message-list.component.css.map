@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/health-chat/chat-message-list/chat-message-list.component.scss"],
+  "sourcesContent": [".list {\r\n  padding: 16px 24px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 16px;\r\n  height: 717px; // matches Figma screenshot region\r\n  overflow: auto;\r\n  -webkit-overflow-scrolling: touch;\r\n}\r\n\r\n.typing {\r\n  font-size: 12px;\r\n  color: var(--muted);\r\n  padding-left: 34px;\r\n}\r\n\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA,KAAA;AACA,WAAA;AACA,kBAAA;AACA,OAAA;AACA,UAAA;AACA,YAAA;AACA,8BAAA;;AAGF,CAAA;AACE,aAAA;AACA,SAAA,IAAA;AACA,gBAAA;;",
+  "names": []
+}

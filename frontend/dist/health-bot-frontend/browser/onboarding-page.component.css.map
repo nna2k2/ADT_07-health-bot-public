@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;cf8f5002bdac897f5eee0c4fdef206f1c5f5979573e66ee6bc055a62c9a507ba;E:/THAC SI/UIUX/health-bot/frontend/src/app/pages/onboarding/onboarding-page.component.ts"],
+  "sourcesContent": ["\n      .header {\n        margin-bottom: 12px;\n        display: grid;\n        gap: 4px;\n      }\n\n      .form {\n        display: grid;\n        gap: 14px;\n      }\n\n      .grid2 {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 12px;\n      }\n\n      .control {\n        width: 100%;\n        border: 1px solid rgba(0, 0, 0, 0.12);\n        border-radius: 8px;\n        padding: 10px 12px;\n        outline: none;\n        background: #fff;\n      }\n\n      .control:focus {\n        border-color: rgba(32, 163, 41, 0.9);\n        box-shadow: 0 0 0 3px rgba(32, 163, 41, 0.15);\n      }\n\n      .row {\n        margin-top: 8px;\n      }\n\n      .api-error {\n        color: #ec003f;\n        font-size: 12px;\n      }\n    "],
+  "mappings": ";AACM,CAAC;AACC,iBAAe;AACf,WAAS;AACT,OAAK;AACP;AAEA,CAAC;AACC,WAAS;AACT,OAAK;AACP;AAEA,CAAC;AACC,WAAS;AACT,yBAAuB,IAAI;AAC3B,OAAK;AACP;AAEA,CAAC;AACC,SAAO;AACP,UAAQ,IAAI,MAAM,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AAChC,iBAAe;AACf,WAAS,KAAK;AACd,WAAS;AACT,cAAY;AACd;AAEA,CATC,OASO;AACN,gBAAc,KAAK,EAAE,EAAE,GAAG,EAAE,EAAE,EAAE;AAChC,cAAY,EAAE,EAAE,EAAE,IAAI,KAAK,EAAE,EAAE,GAAG,EAAE,EAAE,EAAE;AAC1C;AAEA,CAAC;AACC,cAAY;AACd;AAEA,CAAC;AACC,SAAO;AACP,aAAW;AACb;",
+  "names": []
+}

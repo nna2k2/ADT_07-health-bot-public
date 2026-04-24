@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;4d488349270c8fc842d90d95310ea8d20427026f1bb0270e9a6fcfc9bf378ec5;E:/THAC SI/UIUX/health-bot/frontend/src/app/components/app-card/app-card.component.ts"],
+  "sourcesContent": ["\n      .card {\n        background: var(--white);\n        border-radius: var(--radius-24);\n        box-shadow: var(--shadow-card);\n        overflow: hidden;\n      }\n      .card--padded {\n        padding: 16px;\n      }\n    "],
+  "mappings": ";AACM,CAAC;AACC,cAAY,IAAI;AAChB,iBAAe,IAAI;AACnB,cAAY,IAAI;AAChB,YAAU;AACZ;AACA,CAAC;AACC,WAAS;AACX;",
+  "names": []
+}

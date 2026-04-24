@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;8a79bca250f1b9a51a9dc0258ff4179872bc6da46945e87fca653d1852e9c793;E:/THAC SI/UIUX/health-bot/frontend/src/app/components/app-input/app-input.component.ts"],
+  "sourcesContent": ["\n      .field {\n        display: grid;\n        gap: 8px;\n      }\n\n      .field__label {\n        font-size: 12.5px;\n        color: var(--muted);\n      }\n\n      .field__hint {\n        font-size: 12px;\n        color: var(--muted);\n        opacity: 0.9;\n      }\n\n      .field__error {\n        font-size: 12px;\n        color: #ec003f;\n      }\n    "],
+  "mappings": ";AACM,CAAC;AACC,WAAS;AACT,OAAK;AACP;AAEA,CAAC;AACC,aAAW;AACX,SAAO,IAAI;AACb;AAEA,CAAC;AACC,aAAW;AACX,SAAO,IAAI;AACX,WAAS;AACX;AAEA,CAAC;AACC,aAAW;AACX,SAAO;AACT;",
+  "names": []
+}

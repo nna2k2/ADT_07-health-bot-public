@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/health-chat/chat-header/chat-header.component.scss"],
+  "sourcesContent": [".header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  padding: 12px 16px;\r\n  gap: 12px;\r\n}\r\n\r\n.header__back {\r\n  width: 24px;\r\n  height: 24px;\r\n  display: grid;\r\n  place-items: center;\r\n  color: var(--text);\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n}\r\n\r\n.header__pill {\r\n  margin-left: auto;\r\n  background: var(--white);\r\n  border-radius: 12px;\r\n  padding: 4px 16px;\r\n  box-shadow: var(--shadow-card);\r\n}\r\n\r\n.header__title {\r\n  font-size: 13.9px;\r\n  font-weight: 600;\r\n  line-height: 20px;\r\n  color: var(--text);\r\n  white-space: nowrap;\r\n}\r\n\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA,KAAA;AACA,OAAA;;AAGF,CAAA;AACE,SAAA;AACA,UAAA;AACA,WAAA;AACA,eAAA;AACA,SAAA,IAAA;AACA,aAAA;AACA,eAAA;;AAGF,CAAA;AACE,eAAA;AACA,cAAA,IAAA;AACA,iBAAA;AACA,WAAA,IAAA;AACA,cAAA,IAAA;;AAGF,CAAA;AACE,aAAA;AACA,eAAA;AACA,eAAA;AACA,SAAA,IAAA;AACA,eAAA;;",
+  "names": []
+}

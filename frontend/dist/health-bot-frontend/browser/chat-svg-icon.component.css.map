@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;5b9b1d6e391173f96ca3c3155511bc6fe6ba8e0748838ea0492124e8ebba77c5;E:/THAC SI/UIUX/health-bot/frontend/src/app/components/health-chat/chat-svg-icon/chat-svg-icon.component.ts"],
+  "sourcesContent": ["\n      :host {\n        display: inline-flex;\n        flex-shrink: 0;\n        color: #000;\n      }\n\n      .chat-svg {\n        width: 100%;\n        height: 100%;\n        display: block;\n      }\n\n      .chat-svg--on-primary {\n        color: #fff;\n      }\n    "],
+  "mappings": ";AACM;AACE,WAAS;AACT,eAAa;AACb,SAAO;AACT;AAEA,CAAC;AACC,SAAO;AACP,UAAQ;AACR,WAAS;AACX;AAEA,CAAC;AACC,SAAO;AACT;",
+  "names": []
+}

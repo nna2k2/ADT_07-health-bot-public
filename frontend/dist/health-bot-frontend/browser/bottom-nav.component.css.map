@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;4048aa2a03d519be99b87813bb00b33f735af0eedbc1e8ca1f51e607a82b21eb;E:/THAC SI/UIUX/health-bot/frontend/src/app/components/bottom-nav/bottom-nav.component.ts"],
+  "sourcesContent": ["\n      .nav {\n        position: absolute;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        height: 62px;\n        display: grid;\n        grid-template-columns: repeat(5, 1fr);\n        background: var(--white);\n        border-top: 1px solid rgba(0, 0, 0, 0.06);\n      }\n      .nav__item {\n        display: grid;\n        place-items: center;\n        font-size: 12px;\n        color: #6c7278;\n      }\n      .nav__item.is-active {\n        color: var(--primary);\n        font-weight: 600;\n      }\n    "],
+  "mappings": ";AACM,CAAC;AACC,YAAU;AACV,QAAM;AACN,SAAO;AACP,UAAQ;AACR,UAAQ;AACR,WAAS;AACT,yBAAuB,OAAO,CAAC,EAAE;AACjC,cAAY,IAAI;AAChB,cAAY,IAAI,MAAM,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACtC;AACA,CAAC;AACC,WAAS;AACT,eAAa;AACb,aAAW;AACX,SAAO;AACT;AACA,CANC,SAMS,CAAC;AACT,SAAO,IAAI;AACX,eAAa;AACf;",
+  "names": []
+}

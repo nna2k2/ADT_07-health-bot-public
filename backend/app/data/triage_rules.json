@@ -1,0 +1,162 @@
+{
+  "version": "1.2.0",
+  "thresholds": {
+    "medium": 18,
+    "high": 38,
+    "emergency_score": 58
+  },
+  "score_cap_per_group": 28,
+  "symptom_groups": {
+    "cardio": [
+      "Căng thẳng/lo âu hoặc cơn hoảng sợ (tham khảo)",
+      "Vấn đề cơ-xương thành ngực",
+      "Trào ngược dạ dày-thực quản",
+      "Một số bệnh lý tim/phổi nghiêm trọng cần loại trừ nếu có dấu hiệu nguy hiểm"
+    ],
+    "resp": [
+      "Viêm đường hô hấp trên, dị ứng, hen (tham khảo)",
+      "Nhiễm trùng hô hấp (nếu kèm sốt, đau ngực — cần đánh giá)",
+      "Căng thẳng gây cảm giác khó thở chủ quan"
+    ],
+    "neuro": [
+      "Thiếu ngủ, stress, mất nước",
+      "Căng cơ vùng cổ-vai-gáy",
+      "Đau đầu căng thẳng hoặc migraine (tham khảo)",
+      "Cần đi khám nếu có dấu hiệu đỏ (sốt cao, cứng cổ, yếu liệt, đau đầu dữ dội đột ngột)"
+    ],
+    "gi": [
+      "Rối loạn tiêu hóa/khó tiêu",
+      "Viêm dạ dày-ruột/ngộ độc thực phẩm (tham khảo)",
+      "Cần đi khám nếu nôn liên tục, đau tăng dần, có máu, sốt cao"
+    ],
+    "infection": [
+      "Nhiễm siêu vi/viêm đường hô hấp (tham khảo)",
+      "Nhiễm trùng — chú ý nếu sốt cao kéo dài",
+      "Mất nước do sốt/ra mồ hôi"
+    ],
+    "uro": [
+      "Nhiễm trùng đường tiểu (tham khảo)",
+      "Kích ứng bàng quang do caffeine/ít nước",
+      "Cần đi khám nếu sốt, đau hông lưng, nôn hoặc triệu chứng kéo dài"
+    ],
+    "general": [
+      "Một số nguyên nhân thường gặp: căng thẳng, thiếu ngủ, thiếu nước, ăn uống thất thường",
+      "Nếu triệu chứng kéo dài, nặng lên, hoặc có dấu hiệu bất thường, bạn nên đi khám để được đánh giá trực tiếp"
+    ],
+    "orthostatic": [
+      "Hạ huyết áp tư thế (đổi tư thế đứng lên nhanh) — thường cần loại trừ theo ngữ cảnh, không phải chẩn đoán chắc chắn",
+      "Mất nước do ít uống, nóng, vận động, tiêu chảy, sốt",
+      "Thiếu máu, ăn uống kém, nhịn ăn lâu",
+      "Tác dụng phụ hoặc tương tác thuốc (ví dụ thuốc huyết áp, lợi tiểu) — chỉ tham khảo nếu bạn đang dùng"
+    ]
+  },
+  "patterns": [
+    { "id": "em_dau_nguc", "phrases": ["dau nguc"], "group": "cardio", "weight": 0, "emergency": true },
+    { "id": "em_kho_tho", "phrases": ["kho tho"], "group": "resp", "weight": 0, "emergency": true },
+    { "id": "em_ngat", "phrases": ["ngat"], "group": "neuro", "weight": 0, "emergency": true },
+    { "id": "em_co_giat", "phrases": ["co giat"], "group": "neuro", "weight": 0, "emergency": true },
+    { "id": "em_chay_mau_nhieu", "phrases": ["chay mau nhieu"], "group": "general", "weight": 0, "emergency": true },
+    { "id": "em_tu_tu", "phrases": ["tu tu"], "group": "general", "weight": 0, "emergency": true },
+    { "id": "em_tu_lam_hai", "phrases": ["tu lam hai ban than"], "group": "general", "weight": 0, "emergency": true },
+
+    { "id": "hi_liet", "phrases": ["liet"], "group": "neuro", "weight": 28, "emergency": false },
+    { "id": "hi_yeu_mot_ben", "phrases": ["yeu mot ben"], "group": "neuro", "weight": 28, "emergency": false },
+    { "id": "hi_noi_kho", "phrases": ["noi kho"], "group": "neuro", "weight": 24, "emergency": false },
+    { "id": "hi_meo_mieng", "phrases": ["meo mieng"], "group": "neuro", "weight": 24, "emergency": false },
+    { "id": "hi_lu_lan", "phrases": ["lu lan"], "group": "neuro", "weight": 20, "emergency": false },
+    { "id": "hi_khong_tinh_tao", "phrases": ["khong tinh tao"], "group": "neuro", "weight": 22, "emergency": false },
+    { "id": "hi_dau_dau_du_doi", "phrases": ["dau dau du doi nhat"], "group": "neuro", "weight": 26, "emergency": false },
+    { "id": "hi_sot_cao", "phrases": ["sot cao"], "group": "infection", "weight": 22, "emergency": false },
+    { "id": "hi_cung_co", "phrases": ["cung co"], "group": "neuro", "weight": 26, "emergency": false },
+    { "id": "hi_non_lien_tuc", "phrases": ["non lien tuc"], "group": "gi", "weight": 24, "emergency": false },
+
+    { "id": "md_dau_keo_dai", "phrases": ["dau keo dai"], "group": "general", "weight": 14, "emergency": false },
+    { "id": "md_keo_dai_nhieu_ngay", "phrases": ["keo dai nhieu ngay"], "group": "general", "weight": 14, "emergency": false },
+    { "id": "md_khong_giam", "phrases": ["khong giam"], "group": "general", "weight": 12, "emergency": false },
+    { "id": "md_tang_dan", "phrases": ["tang dan"], "group": "general", "weight": 12, "emergency": false },
+    { "id": "md_dau_nhieu", "phrases": ["dau nhieu"], "group": "general", "weight": 10, "emergency": false },
+    { "id": "md_mat_ngu", "phrases": ["mat ngu"], "group": "general", "weight": 8, "emergency": false },
+    { "id": "md_lo_lang", "phrases": ["lo lang"], "group": "general", "weight": 8, "emergency": false },
+
+    { "id": "sym_dau_dau", "phrases": ["dau dau"], "group": "neuro", "weight": 10, "emergency": false },
+    { "id": "sym_choang", "phrases": ["choang"], "group": "neuro", "weight": 12, "emergency": false },
+    { "id": "sym_chong_mat", "phrases": ["chong mat"], "group": "neuro", "weight": 12, "emergency": false },
+    {
+      "id": "sym_orthostatic_dizzy",
+      "phrases": ["chong mat khi dung", "chong mat khi dung len", "choang khi dung len", "chong mat luc dung", "hay chong mat khi dung"],
+      "group": "orthostatic",
+      "weight": 22,
+      "emergency": false
+    },
+    { "id": "sym_non", "phrases": ["non", "buon non"], "group": "gi", "weight": 8, "emergency": false },
+    { "id": "sym_sot", "phrases": ["sot"], "group": "infection", "weight": 10, "emergency": false },
+    { "id": "sym_dau_bung", "phrases": ["dau bung"], "group": "gi", "weight": 10, "emergency": false },
+    { "id": "sym_tieu_chay", "phrases": ["tieu chay"], "group": "gi", "weight": 10, "emergency": false }
+  ],
+  "band_actions": {
+    "low": [
+      "Thử các biện pháp chăm sóc nhẹ nhàng và theo dõi phản ứng của cơ thể.",
+      "Nếu triệu chứng kéo dài hoặc bạn lo lắng, hãy cân nhắc đi khám."
+    ],
+    "medium": [
+      "Theo dõi thêm 24–48 giờ và ghi lại diễn biến triệu chứng.",
+      "Nếu không cải thiện hoặc xuất hiện dấu hiệu bất thường, hãy đi khám.",
+      "Ưu tiên ngủ đủ, uống nước, vận động nhẹ và giảm căng thẳng."
+    ],
+    "high": [
+      "Nên đi khám sớm trong hôm nay/24 giờ tới để được đánh giá trực tiếp.",
+      "Nếu triệu chứng nặng lên nhanh, hãy đến cơ sở y tế gần nhất.",
+      "Ghi lại: thời điểm bắt đầu, yếu tố làm nặng/giảm, các triệu chứng kèm theo."
+    ],
+    "emergency": [
+      "Nếu khẩn cấp, gọi cấp cứu hoặc đến cơ sở y tế gần nhất ngay.",
+      "Nhờ người thân ở cạnh bạn nếu có thể.",
+      "Chuẩn bị thông tin: triệu chứng, thời điểm bắt đầu, mức độ, bệnh nền, thuốc đang dùng."
+    ]
+  },
+  "follow_up_rules": [
+    {
+      "id": "orthostatic_dizziness",
+      "if_any_phrase_matched": ["chong mat khi dung", "chong mat khi dung len", "choang khi dung len", "chong mat luc dung", "hay chong mat khi dung"],
+      "unless_text_contains_any": [],
+      "questions": [
+        "Bạn có từng ngất hoặc suýt ngất khi đứng dậy không?",
+        "Bạn có đau ngực, khó thở, hoặc tim đập nhanh/bất thường kèm theo không?",
+        "Gần đây bạn có sốt, tiêu chảy, ăn uống kém, hoặc uống ít nước không?",
+        "Bạn có đang dùng thuốc huyết áp, lợi tiểu, hoặc vừa đổi/thêm thuốc gần đây không?",
+        "Triệu chứng này xảy ra được bao lâu rồi và có hay xảy ra không (thỉnh thoảng hay gần như mỗi lần đứng lên)?"
+      ]
+    },
+    {
+      "id": "headache_onset",
+      "if_any_phrase_matched": ["dau dau", "dau nua dau"],
+      "unless_text_contains_any": [
+        "tu toi", "tu dem", "tu sang", "tu hom", "tu gio", "tu luc", "tu chieu",
+        "may gio", "bao lau", "ke tu", "hom qua", "hom nay", "ngay thu"
+      ],
+      "questions": [
+        "Bạn đau đầu bắt đầu từ khoảng thời gian nào (ví dụ từ tối qua, từ sáng nay), và có tăng dần không?"
+      ]
+    },
+    {
+      "id": "neuro_red_flags",
+      "if_any_phrase_matched": ["dau dau", "choang", "chong mat"],
+      "unless_text_contains_any": [
+        "yeu mot ben", "yeu tay", "yeu chan", "noi kho", "meo mieng", "cung co", "sot cao",
+        "chong mat khi dung", "chong mat khi dung len", "choang khi dung len", "chong mat luc dung", "hay chong mat khi dung"
+      ],
+      "questions": [
+        "Bạn có đang có yếu tay chân một bên, méo miệng, khó nói, cứng cổ, hoặc co giật không?"
+      ]
+    },
+    {
+      "id": "gi_context",
+      "if_any_phrase_matched": ["non", "buon non", "dau bung"],
+      "unless_text_contains_any": ["tieu chay", "tao bon", "an uong", "do uong", "uong ruou"],
+      "questions": [
+        "Gần đây bạn có ăn đồ lạ, uống rượu bia nhiều, hoặc dùng thuốc mới nào không?"
+      ]
+    }
+  ],
+  "max_follow_up_questions": 5
+}
