@@ -1,4 +1,5 @@
-## Health Care Bot MVP (Wellness)
+## Nhóm ADT_07
+## Health Care Bot MVP (Wellness) 
 
 MVP bot chăm sóc sức khỏe tổng quát (wellness), bám UI theo Figma và dễ demo đồ án.
 
